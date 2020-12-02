@@ -1,0 +1,252 @@
+.menu{
+    border: 1px solid #fd8c04;
+    width: 600px;
+    height: 250px;
+    background-color: #db640062;
+    margin-left: 660px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 50px;
+}
+
+
+.menu-button{
+    width: 500px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #f8b24f;
+    box-shadow: 10px 10px #db6400;
+    border: none;
+    margin-top: 15px;
+}
+
+h4, h2{
+    color: whitesmoke;
+}
+
+.puntuacion{
+    border: 1px solid #db6400;
+    width: 600px;
+    height: 600px;
+    background-color: #f5b46162;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.puntuacion-table{
+    width: 500px;
+}
+
+.puntuacion-title{
+    color:black;
+}
+
+.style-options{
+    margin-left: 15px;
+}
+
+th, td{
+    color:whitesmoke;
+    text-align: center;
+    background-color: #ffa45b;
+}
+
+
+.menu-principal{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100%;
+    top: 0;
+    left: 0;
+    background-color:#cecccd;
+    background-image: url('./../resources/UI/background5.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    visibility: hidden;
+}
+
+.button-container{
+    border: 1px solid #fd8c04;
+    width: 600px;
+    height: 150px;
+    background-color: #db640062;
+    margin-left: 660px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 50px;
+}
+
+.iniciar{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100%;
+    top: 0;
+    left: 0;
+    background-color:#cecccd;
+    background-image: url('./../resources/UI/background5.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.game-over{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100%;
+    top: 0;
+    left: 0;
+    background-color:#cecccd;
+    background-image: url('./../resources/UI/background3.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    visibility: hidden;
+}
+
+.pause-game{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100%;
+    top: 0;
+    left: 0;
+    background-color:#cecccd62;
+    visibility: hidden;
+}
+
+.pause-container{
+    border: 1px solid #fd8c04;
+    width: 600px;
+    background-color: #db640062;
+    margin-left: 660px;
+    margin-top: 10%;
+    padding: 10px 10px 10px 50px;
+
+}
+
+.facebook-container{
+    border: 1px solid #fd8c04;
+    width: 600px;
+    background-color: #db640062;
+    margin-left: 660px;
+    margin-top: 10%;
+    padding: 10px 10px 10px 50px;
+
+}
+
+.data-facebook{
+    width:  90%;
+    height: 30px;
+    margin: 10px;
+}
+
+.game-title{
+    color: #ffffff;
+}
+
+.game-puntuation{
+    color: white;
+}
+
+.game-subtitle{
+    color: #ffffff;
+}
+
+.game{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.game-player1{
+    visibility: hidden;
+}
+
+.game-player2{
+    visibility: hidden;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+@media only screen and (max-width: 1440px) 
+{
+    .menu{
+        margin-left: 100px;
+    }
+
+    .iniciar{
+        margin-left: 100px;
+    }
+
+    .facebook-container{
+        margin-left: 100px;
+    }
+
+    .pause-container{
+        margin-left: 100px;
+    }
+
+    .puntuacion{
+        margin-left: 0px;
+    }
+   
+    img{
+        width: 450px;
+        height: 250px;
+    }
+
+    .button-container{
+        margin-left: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) 
+{
+    .menu{
+        margin-left: 20px;
+    }
+
+    .iniciar{
+        margin-left: 20px;
+    }
+    
+    .puntuacion{
+        margin-left: 20px;
+    }
+
+    img{
+        width: 250px;
+        height: 150px;
+    }
+    .facebook-container{
+        margin-left: 20px;
+    }
+
+    .pause-container{
+        margin-left: 20px;
+    }
+
+    .button-container{
+        margin-left: 20px;
+    }
+}
+
+
